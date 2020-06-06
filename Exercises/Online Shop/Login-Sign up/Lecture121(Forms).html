@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup form</title>
+</head>
+<body>
+    <form action="http://www.example.com/login.php" method="POST">
+        <fieldset>
+            <legend>Personal details</legend>
+            <p>
+                First Name
+                <input type="text" name="firstname" size="15" maxlength="30" required>
+                Last Name
+                <input type="text" name="lastname" size="15" maxlength="30" required>
+            </p>
+    
+            <p>
+                Gender:
+                <input id="male" type="radio" name="gender" value="M"> 
+                <label for="male">Male</label>
+                <label><input type="radio" name="gender" value="F"> Female </label>
+    
+            </p>
+            <p>
+                Date of Birth:
+                <input type="date" name="DOB">
+            </p>
+            <p>
+                Please enter your email address:
+                <input type="email" name="email">
+            </p>
+            <p>
+                Enter your github site:
+                <input type="url" name="url">
+            </p>
+            <p>
+                Nationality
+                <select name="countries" multiple>
+                    <option></option>
+                    <option value = "Pakistan">Pakistan</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="England">England</option>
+                    <option value="China">China</option>
+    
+                </select>    
+            </p>
+        </fieldset>
+      
+    
+        <p>
+            Enter password:
+            <input type="password" name="Password" size="15" maxlength="30">
+        </p>
+        <p>
+            Re-enter password:
+            <input type="password" name="Password" size="15" maxlength="30">
+        </p>
+       
+        <p>
+            Interests:
+            <input type="checkbox" name="Interests" value="book"> Reading
+            <input type="checkbox" name="Interests" value="swim"> Swimming
+            <input type="checkbox" name="Interests" value="coding"> Programming
+
+
+        </p>
+
+        <p>
+            Comment:
+            <textarea name="Comment" cols="30" rows="10">Text Box Area meow</textarea>
+
+        </p>
+        <p?>
+            Upload profile picture:
+        </p>
+        <input type="file" name="dp">
+
+        <br>
+        <br>
+        <input type="submit" value="Upload">
+    <input type="submit">
+    <br>
+    <br>
+    <br>
+    <input type="image" src="Download-Submit-Button-PNG-Picture.png" width="100">
+
+        
+    </form>
+    
+</body>
+</html>
